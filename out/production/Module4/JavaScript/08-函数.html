@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //形参的类型不用写，因为都是var全类型的
+    // 第一种方法定义方式（通常使用第一种）
+   function add1(a,b){
+       return a + b;
+   }
+   var result1 = add1(1,2);
+   window.alert(result1);
+
+    // 第二种方法定义方式
+   var add2 = function (a,b){
+       return a + b;
+   }
+   var result2 = add2(1,2);
+
+   // 注意事项
+   var result3 = add1(1,2,3);//可以传递多个参数，即使没有在方法里面，所以后面的3就不会被入参和参与运算
+   alert(result3)//3
+
+   var result4 = add1(1);//可以传递一个参数，由于参数不够，b就为NaN,和也就是NaN
+   alert(result4);
+
+   alert(result);
+
+</script>
+</body>
+</html>

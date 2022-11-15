@@ -1,0 +1,148 @@
+<!--html5的标识-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8"><!--当前页面的字符集-->
+        <title> test_01</title>
+    </head>
+
+    <body>
+        <!--
+            html 颜色标识：
+            1.pink ,yellow,black,green...
+            2.rgb(a,b,c),eg.rgb(255,0,0)
+            3.#abc,eg.#ff0000:红色
+        -->
+        <font face="宋体" size="10" color="#ffc0cb"> ^ o ^ </font>
+
+        <h1>h1的标题大小</h1>
+        <hr><!--水平线-->
+        <h2>h2的标题大小</h2>
+        <hr>
+        <h3>h3的标题大小</h3>
+        <hr>
+        <h4>h4的标题大小</h4>
+        <hr>
+        <h5>h5的标题大小</h5>
+        <hr>
+        <h6>h6的标题大小</h6>
+        <hr>
+
+        <h3>hello</h3> <br> <!--<br>是换行操作--> <h3> hello </h3>
+        <hr>
+
+        <p>
+        我是陈律
+        </p>
+        <p>
+        我女朋友是张咏仪
+        </p>
+        <!--<p>是将p包裹的部分作为一个段落-->
+        <hr>
+
+        <b>我是陈律</b>   <br>
+        <i>我是陈律</i>   <br>
+        <u>我是陈律</u>   <br>
+        <!--<b>是粗体文字-->
+        <!--<i>是斜体文字-->
+        <!--<u>是下划线文字-->
+        <hr>
+
+        <center>
+            <i> hello world  </i>
+        </center>
+        <!--<center>是将包裹的文字居中表示-->
+        <hr>
+
+        <img src="https://img2.baidu.com/it/u=1814268193,3619863984&fm=253&fmt=auto&app=138&f=JPEG?w=632&h=500" >
+        <hr>
+        <img src="../IMG/a.jpg" width="600" height="700"><!--默认单位是px也就是像素-->
+        <hr>
+        <audio src="../IMG/b.mp3" controls>  </audio>
+        <hr>
+        <video src="../IMG/c.mp4" controls width="500" height="500">  </video>
+        <hr>
+
+        <a href="https://www.abdn.ac.uk/about/quick-links.php" target="_self"> <center>阿伯丁官网</center>  </a> <br>
+        <a href="https://www.abdn.ac.uk/about/quick-links.php" target="_blank"> <center>阿伯丁官网</center>  </a> <br>
+        <!--<a>为超链接，显示的内容是“阿伯丁官网”，里面的href属性是超链接的网址-->
+        <!--target="_self"是超链接的第一种打开方式，self代表在当前页面打开-->
+        <!--target="_blank"是超链接的第一种打开方式，blank代表在当前页面打开-->
+        <hr>
+
+        <ol type="A">
+            <!--有序列表-->
+            <!--type可以定义有序列表的标签内容-->
+            <li>hello</li>
+            <li>world</li>
+            <li>lalalala</li>
+        </ol>
+        <hr>
+        <ul>
+            <!--无序列表-->
+            <li>hello</li>
+            <li>world</li>
+            <li>lalalala</li>
+        </ul>
+        <hr>
+
+        <table border="1" cellspacing="0" width="1000">
+            <tr align="center">
+            <!--<tr>是创建一行-->    <!--align定义表格行的内容对齐方式-->
+                <th>序号</th>
+                <!--<th>是代表第一行，就是表头单元格thead-->
+                <th>品牌logo</th>
+                <th>品牌名称</th>
+                <th>企业名称</th>
+            </tr>
+            <tr align="center">
+                <!--<td>代表的是普通单元格-->
+                <!--rowspan规定单元格可横跨的行数-->
+                <!--colspan规定单元格可横跨的列数-->
+                <td>0001</td>
+                <td><img src="../IMG/a.jpg" width="60" height="50"></td>
+                <td>111</td>
+                <td>1</td>
+            </tr>
+            <tr align="center">
+                <td>0002</td>
+                <td><img src="../IMG/a.jpg" width="60" height="50"></td>
+                <td>222</td>
+                <td>2</td>
+            </tr>
+            <tr align="center">
+                <td>0003</td>
+                <td><img src="../IMG/a.jpg" width="60" height="50"></td>
+                <td>333</td>
+                <td>3</td>
+            </tr>
+        </table>
+
+
+        <div>我是div</div>
+        <div>我是div</div>
+        <hr>
+        <span>我是span</span>
+        <span>我是span</span>
+        <!--<div>和<span>都是为CSS做准备-->
+        <!--<div>的内容占满整一行-->
+        <!--<span>的内容属于行内，不会占满整一行-->
+        <hr>
+
+        <form action="#" method="post">
+        <!--<action>指定表单数据提交的URL，表单项数据要想被提交则必须提供一个name属性-->
+        <!--
+            <method>决定表单提交的方式，
+            1.get：请求的参数会跟在URL后面，就是网址的最后面。
+            由于URL也就是网址的长度有限制（4k），所以会出现长度不够的问题
+            2.post:请求的参数会在http请求协议的请求体中(也就是在网页的右上角点击三个点，点击更多工具，点击开发者工具，点击Network，当输入input后，数据会被开发工具抓取)
+            请求参数无限制
+        -->
+            <input type="text" name="username">
+            <!--username会作为键存储，input的内容会作为值来存储-->
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
