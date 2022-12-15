@@ -1,6 +1,6 @@
 package com.basic_garmmer;
 
-public class Operator_and_operation_rules {
+public class 操作符和操作规则 {
     public static void main(String[] args) {
         {
             System.out.println("------------------1----------------------");

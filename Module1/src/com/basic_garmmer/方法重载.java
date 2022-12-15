@@ -1,6 +1,6 @@
 package com.basic_garmmer;
 
-public class restart_Method {
+public class 方法重载 {
     public static void main(String[] args) {
         //                 方法重载
         //可以创建多的相同名称的方法(区分大小写)

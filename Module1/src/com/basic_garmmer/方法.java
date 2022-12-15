@@ -1,6 +1,6 @@
 package com.basic_garmmer;
 
-public class Method {
+public class 方法 {
     public static void main(String[] args) {
         // 标准格式:
         // 方法修饰符  返回值类型  方法名称  （形参列表）{

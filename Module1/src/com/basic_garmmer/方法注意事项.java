@@ -1,7 +1,7 @@
 package com.basic_garmmer;
 
 //                   理解JAVA的方法参数传递机制
-public class Method_attention {
+public class 方法注意事项 {
     public static void main(String[] args) {
         int a = 20;
         change1(a);
